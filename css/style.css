@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500&display=swap");
+/* Global styles - [Start]*/
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 21px;
+}
+img {
+  display: block;
+}
+.container {
+  max-width: 1250px;
+  margin: 0 auto;
+}
+.btn_group {
+  display: flex;
+}
+.btn_group .btn {
+  margin-right: 20px;
+}
+.btn {
+  padding: 15px 15px;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 6px;
+}
+/* .btn .icofont-headphone-alt */
+.btn [class*="icofont-"] {
+  margin-right: 10px;
+}
+h1,
+.h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 51px;
+  color: #133dd3;
+}
+h2,
+.h2 {
+  font-size: 45px;
+}
+h3,
+.h3 {
+  font-size: 39px;
+}
+h4,
+.h4 {
+  font-size: 32px;
+}
+h5,
+.h5 {
+  font-size: 26px;
+}
+h6,
+.h6 {
+  font-size: 20px;
+}
+p {
+  font-size: 13px;
+}
+.btn.primary {
+  background: #f27418;
+  color: #fff;
+}
+.btn.secondary {
+  background: #f3f5f9;
+  color: #133dd3;
+}
+.btn.secondary.outline {
+  background: transparent;
+  border: solid 1px #133dd3;
+}
+/* flexbox */
+.flexbox {
+  display: flex;
+}
+.align-items-center {
+  align-items: center;
+}
+.justify-content-center {
+  justify-content: center;
+}
+.section {
+  padding: 60px 0;
+}
+.align-center {
+  text-align: center;
+}
+/* Global styles - [/End]*/
+
+body {
+  background: #e2e6ef;
+}
+/* Header */
+#header {
+  background: white;
+  padding: 8px 0;
+}
+#header .btn_hamburger {
+  background: #f3f5f9;
+  width: 66px;
+  height: 66px;
+  display: inline-block;
+  border-radius: 100%;
+  padding: 16px 16px 0;
+}
+#header .btn_hamburger span {
+  display: block;
+  height: 2px;
+  background: #363d55;
+  margin: 6px 0;
+}
+#header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+}
+.header_right {
+  display: flex;
+  align-items: center;
+}
+
+/* Hero section */
+.section_hero {
+  padding: 65px 0;
+}
+/* Footer */
+#footer {
+}
+
+.section_partners {
+  background: white;
+}
+.client_logos div {
+  margin: 0 15px;
+}
+.section_services {
+  background: white;
+}
+.section_steps {
+  background: white;
+}
+.section_tech {
+  background: white;
+}

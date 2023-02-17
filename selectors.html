@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      #header {
+      }
+      .box1_parent {
+        border: solid 5px red;
+        width: 800px;
+        height: 800px;
+        position: relative;
+      }
+      .box1 {
+        width: 500px;
+        margin: 10px;
+        height: 500px;
+        border: solid 5px black;
+        /* position: relative; */
+      }
+
+      .box1_parent > div {
+        background: orange;
+      }
+
+      .inner_box1 {
+        margin: 10px;
+        width: 130px;
+        height: 130px;
+        background: white;
+        border: solid 5px black;
+      }
+
+      .box1 > .inner_box1 {
+        background: yellow;
+      }
+
+      .chat_wrapper {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+      }
+      button {
+        padding: 20px 40px;
+        border: none;
+        color: #fff;
+        font-size: 20px;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <header id="header"></header>
+    <h1>Selectors</h1>
+
+    <div class="box1_parent">
+      <div class="box1">
+        <div class="inner_box1"></div>
+        <div class="inner_box1"></div>
+
+        <div class="chat_wrapper">
+          <button>Chat With Us</button>
+        </div>
+      </div>
+
+      <!-- <button>Test 1</button>
+      <button>Test 2</button>
+      <button>Test 3</button>
+      <button>Test 4</button> -->
+    </div>
+  </body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      #header {
+      }
+      .box1_parent {
+        width: 800px;
+        height: 800px;
+        background: yellow;
+        position: relative;
+      }
+      .box1 {
+        width: 500px;
+        height: 500px;
+        background: red;
+        /* position: relative; */
+      }
+      .inner_box1 {
+        margin-bottom: 10px;
+        width: 130px;
+        height: 130px;
+        background: orange;
+
+        position: absolute;
+        bottom: 0;
+        right: 0;
+      }
+
+      .chat_wrapper {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+      }
+      button {
+        background: orange;
+        padding: 20px 40px;
+        border: none;
+        color: #fff;
+        font-size: 20px;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <header id="header"></header>
+    <h1>Positions</h1>
+    <h1>Second Position</h1>
+    <div class="box1_parent">
+      <div class="box1">
+        <div class="inner_box1"></div>
+        <div class="inner_box1"></div>
+
+        <div class="chat_wrapper">
+          <button>Chat With Us</button>
+        </div>
+      </div>
+
+      <!-- <button>Test 1</button>
+      <button>Test 2</button>
+      <button>Test 3</button>
+      <button>Test 4</button> -->
+    </div>
+  </body>
+</html>
